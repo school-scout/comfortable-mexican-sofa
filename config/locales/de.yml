@@ -33,6 +33,7 @@ de:
         target_page_id: Weiterleitung zu Seite
         content: Inhalt
         is_published: Veröffentlicht
+        meta_description: Meta-Description
       comfy/cms/file:
         label: Bezeichnung
         file: Datei
