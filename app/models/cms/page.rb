@@ -13,7 +13,8 @@ class Cms::Page < ActiveRecord::Base
                   :blocks_attributes,
                   :is_published,
                   :target_page_id,
-                  :category_ids
+                  :category_ids,
+                  :meta_description
   
   cms_acts_as_tree :counter_cache => :children_count
   cms_is_categorized

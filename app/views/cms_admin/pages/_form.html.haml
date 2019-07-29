@@ -26,6 +26,8 @@
 
 = render :partial => 'cms_admin/categories/form', :object => form
 
+= form.text_field :meta_description
+
 = render :partial => 'form_blocks'
 
 = form.check_box :is_published, :label => t('.is_published')

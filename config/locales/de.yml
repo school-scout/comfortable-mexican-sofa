@@ -34,6 +34,7 @@ de:
         slug: Slug
         target_page_id: Weiterleiten zu Seite
         is_published: Veröffentlicht
+        meta_description: Meta-Description
       cms/file:
         file: Datei
         description: Beschreibung
