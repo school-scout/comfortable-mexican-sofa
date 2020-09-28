@@ -32,6 +32,9 @@
 = form.form_group :is_published do
   = form.check_box :is_published, :label => t('.is_published')
 
+= form.form_group :meta_noindex do
+  = form.check_box :meta_noindex
+
 = render 'comfy/admin/cms/partials/page_form_after', :form => form
 
 = form.form_group :class => 'form-actions' do

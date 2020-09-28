@@ -34,6 +34,7 @@ de:
         content: Inhalt
         is_published: Veröffentlicht
         meta_description: Meta-Description
+        meta_noindex: Meta-Tag "noindex" setzen
       comfy/cms/file:
         label: Bezeichnung
         file: Datei
